@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(245, 240, 235);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urna{
+    background-color: #c7b898;
+    padding: 30px;
+    display: flex;
+}
+.tela{
+    width: 600px;
+    height: 350px;
+    background: linear-gradient( to right, #e8e8e8 , #c1c1c1);
+    
+}
+.teclado {
+    background-color: #403a3a;
+    padding: 20px
+    
+}
+
