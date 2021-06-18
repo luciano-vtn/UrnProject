@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(245, 240, 235);
+    background-color: rgb(239, 243, 178);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -7,19 +7,80 @@ body {
 }
 
 .urna{
-    background-color: #c7b898;
-    padding: 30px;
+    margin-top: 20px;
+    background-color: #979693;
+    padding: 40px;
     display: flex;
 }
 .tela{
-    width: 600px;
-    height: 350px;
-    background: linear-gradient( to right, #e8e8e8 , #c1c1c1);
+    width: 700px;
+    height: 400px;
+    background: linear-gradient( to right, #f5f2f2 , #d4d2d2);
+    border: 3px solid rgb(90, 89, 89);
+    display: flex;
+    flex-direction: column;
     
 }
+
+/* INICIO das estilizações do teclado "PARTE NUMERICA"*/
+
 .teclado {
-    background-color: #403a3a;
-    padding: 20px
+    background-color: #3b3535;
+    margin-left: 20px;
+}
+.teclado--linha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teclado--botton {
+    width: 80px;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    color: #e8e8e8;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 04px 04px 0px rgb(100, 97, 97) ;
+}
+/* INICIO das estilizações do teclado "BOTÕES DE OPÇÃO"*/
+
+.btn--branco{
+    background-color: rgb(241, 233, 233);
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+}
+.btn--corrige {
+    background-color: #f09046;
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+}
+
+.btn--confirma {
+    background-color:#48c079;
+    color: #000;
+    font-size: 15px;
+    width: 100px;
+    height: 70px
+}
+
+/* INICIO das estilizações da "TELA DE ORIENTAÇÃO E VISUALIZAÇÃO DO CANDIDATO"*/
+
+.topScreen{
+    flex: 1;
     
+
+}
+
+.bottonSreen{
+    height: 80px;
+    font-size: 14px;
+    border-top: 2px solid rgb(15, 8, 8);
+    padding-left: 05px;
 }
 
