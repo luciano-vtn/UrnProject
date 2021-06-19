@@ -103,6 +103,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
     
 }
 .topScreenLeft-03 {
@@ -128,23 +129,38 @@ body {
     animation-iteration-count: infinite;
 }
 .topScreenLeft-04 {
-    /*background-color: rgb(95, 204, 113);*/
     flex: 1;
     line-height: 40px;
+    margin-top: 10px;
     
 }
 
 
+.topScreenRight{ /* POSIÇÃO (FOTO CANDIDATO)*/
+    width: 130px;
+}
 
+.topScreenRightImage{
+    border: 2px solid rgb(10, 10, 10);
+    background-color:#fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.topScreenRightImage img{
+    width: 100%;
+}
 
-.topScreenRight{ /* POSIÇÃO (FICHA CANDIDATO)*/
-    width: 90px;
+.topScreenRightImage.small{
+    width: 70%;
+    margin-left: 12px;
+    font-size: 12px
 }
 
 .bottonSreen{
     height: 80px;
     font-size: 14px;
-    border-top: 2px solid rgb(15, 8, 8);
+    border-top: 2px solid rgb(46, 24, 24);
     padding-left: 10px;
 }
 
