@@ -1,11 +1,10 @@
 let phases = [
-
     {
         titulo: "VEREADOR",
         numeros: 5,
         candidatos: [
             {
-                numero: 12345,
+                numero: '12345',
                 nome:   "Infinito e Alem",
                 partido:"JPD",
                 fotos: [
@@ -15,7 +14,7 @@ let phases = [
                 ]
             },
             {
-                numero: 12001,
+                numero: '12001',
                 nome:   "Tranquila que Só",
                 partido:"PDA",
                 fotos: [
@@ -25,7 +24,7 @@ let phases = [
                 ]
             },
             {
-                numero: 12020,
+                numero: '12020',
                 nome:   "Atento e Observador",
                 partido:"EJO",
                 fotos: [
