@@ -41,7 +41,7 @@ let phases = [
                 numeros: 2,
                 candidatos: [
                     {
-                        numero: 15,
+                        numero: "15",
                         nome:   "Java para Todos",
                         partido:"JPD",
                         vice:"De olho",
@@ -51,7 +51,7 @@ let phases = [
                         ]
                     },
                     {
-                        numero: 12,
+                        numero: "12",
                         nome:   "Html é de Marcação",
                         partido:"EJO",
                         vice:"Esperando",
